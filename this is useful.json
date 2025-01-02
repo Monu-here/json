@@ -18,9 +18,9 @@
                             }
                         ],
                         "url": {
-                            "raw": "{{base_url}}/login",
+                            "raw": "http://127.0.0.1:8000/api/login",
                             "host": [
-                                "{{base_url}}"
+                                "127.0.0.1"
                             ],
                             "path": [
                                 "login"
@@ -44,9 +44,9 @@
                             }
                         ],
                         "url": {
-                            "raw": "{{base_url}}/logout",
+                            "raw": "http://127.0.0.1:8000/api/logout",
                             "host": [
-                                "{{base_url}}"
+                                "127.0.0.1"
                             ],
                             "path": [
                                 "logout"
