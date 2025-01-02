@@ -1,0 +1,1354 @@
+{
+    "info": {
+        "name": "Admin APIs Complete",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "settings",
+            "item": [
+                {
+                    "name": "academic-year",
+                    "item": [
+                        {
+                            "name": "List Academic Years",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/academic-year/",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "academic-year",
+                                        ""
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Add Academic Year",
+                            "request": {
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/academic-year/add",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "academic-year",
+                                        "add"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Edit Academic Year",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/academic-year/edit/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "academic-year",
+                                        "edit",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Update Academic Year",
+                            "request": {
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/academic-year/update/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "academic-year",
+                                        "update",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Delete Academic Year",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/academic-year/delete/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "academic-year",
+                                        "delete",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "branch",
+                    "item": [
+                        {
+                            "name": "List Branches",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/branch/",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "branch",
+                                        ""
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Add Branch",
+                            "request": {
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/branch/add",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "branch",
+                                        "add"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Edit Branch",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/branch/edit/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "branch",
+                                        "edit",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Update Branch",
+                            "request": {
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/branch/update/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "branch",
+                                        "update",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Delete Branch",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/branch/delete/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "branch",
+                                        "delete",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "pick-up-point",
+                    "item": [
+                        {
+                            "name": "List Pick-Up Points",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/pick-up-point/",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "pick-up-point",
+                                        ""
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Add Pick-Up Point",
+                            "request": {
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/pick-up-point/add",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "pick-up-point",
+                                        "add"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Edit Pick-Up Point",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/pick-up-point/edit/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "pick-up-point",
+                                        "edit",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Update Pick-Up Point",
+                            "request": {
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/pick-up-point/update/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "pick-up-point",
+                                        "update",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Delete Pick-Up Point",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/pick-up-point/delete/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "pick-up-point",
+                                        "delete",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "grade",
+                    "item": [
+                        {
+                            "name": "List Grades",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/grade/",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "grade",
+                                        ""
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Add Grade",
+                            "request": {
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/grade/add",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "grade",
+                                        "add"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Update Grade",
+                            "request": {
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/grade/update/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "grade",
+                                        "update",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Delete Grade",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/grade/delete/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "grade",
+                                        "delete",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "section",
+                    "item": [
+                        {
+                            "name": "List Sections",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/section/",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "section",
+                                        ""
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Add Section",
+                            "request": {
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/section/add",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "section",
+                                        "add"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Edit Section",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/section/edit/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "section",
+                                        "edit",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Update Section",
+                            "request": {
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/section/update/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "section",
+                                        "update",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Delete Section",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/section/delete/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "section",
+                                        "delete",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "vehicle",
+                    "item": [
+                        {
+                            "name": "List Vehicles",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/vehicle/",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "vehicle",
+                                        ""
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Add Vehicle",
+                            "request": {
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/vehicle/add",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "vehicle",
+                                        "add"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Edit Vehicle",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/vehicle/edit/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "vehicle",
+                                        "edit",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Update Vehicle",
+                            "request": {
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/vehicle/update/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "vehicle",
+                                        "update",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Delete Vehicle",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/vehicle/delete/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "vehicle",
+                                        "delete",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "rfid",
+                    "item": [
+                        {
+                            "name": "List RFID",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/rfid/",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "rfid",
+                                        ""
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Add RFID",
+                            "request": {
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/rfid/add",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "rfid",
+                                        "add"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Edit RFID",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/rfid/edit/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "rfid",
+                                        "edit",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Update RFID",
+                            "request": {
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/rfid/update/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "rfid",
+                                        "update",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Delete RFID",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/rfid/delete/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "rfid",
+                                        "delete",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "teacher",
+                    "item": [
+                        {
+                            "name": "List Teachers",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/teacher/",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "teacher",
+                                        ""
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Search Teachers",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/teacher/search",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "teacher",
+                                        "search"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Add Teacher",
+                            "request": {
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/teacher/add",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "teacher",
+                                        "add"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Edit Teacher",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/teacher/edit/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "teacher",
+                                        "edit",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Update Teacher",
+                            "request": {
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/teacher/update/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "teacher",
+                                        "update",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Delete Teacher",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "http://127.0.0.1:8000/api/admin/settings/teacher/delete/{id}",
+                                    "host": [
+                                        "127.0.0.1"
+                                    ],
+                                    "port": "8000",
+                                    "path": [
+                                        "api",
+                                        "admin",
+                                        "settings",
+                                        "teacher",
+                                        "delete",
+                                        "{id}"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "student",
+            "item": [
+                {
+                    "name": "List Students",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/admin/student/",
+                            "host": [
+                                "127.0.0.1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "admin",
+                                "student",
+                                ""
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Search Students",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/admin/student/search",
+                            "host": [
+                                "127.0.0.1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "admin",
+                                "student",
+                                "search"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Add Student",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/admin/student/add",
+                            "host": [
+                                "127.0.0.1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "admin",
+                                "student",
+                                "add"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Edit Student",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/admin/student/edit/{id}",
+                            "host": [
+                                "127.0.0.1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "admin",
+                                "student",
+                                "edit",
+                                "{id}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Update Student",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/admin/student/update/{id}",
+                            "host": [
+                                "127.0.0.1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "admin",
+                                "student",
+                                "update",
+                                "{id}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Delete Student",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/admin/student/delete/{id}",
+                            "host": [
+                                "127.0.0.1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "admin",
+                                "student",
+                                "delete",
+                                "{id}"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "attendance",
+            "item": [
+                {
+                    "name": "List Attendance",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/admin/attendance/",
+                            "host": [
+                                "127.0.0.1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "admin",
+                                "attendance",
+                                ""
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Add Attendance",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/admin/attendance/add",
+                            "host": [
+                                "127.0.0.1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "admin",
+                                "attendance",
+                                "add"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Search Attendance",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/admin/attendance/search",
+                            "host": [
+                                "127.0.0.1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "admin",
+                                "attendance",
+                                "search"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
