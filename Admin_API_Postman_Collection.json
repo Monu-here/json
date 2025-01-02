@@ -1,0 +1,157 @@
+{
+    "info": {
+        "name": "Admin API Routes",
+        "description": "Collection of API routes for admin operations.",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Settings - Academic Year",
+            "item": [
+                {
+                    "name": "Get All Academic Years",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer <your-token>",
+                                "type": "text"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{base_url}}/admin/settings/academic-year",
+                            "host": [
+                                "{{base_url}}"
+                            ],
+                            "path": [
+                                "admin",
+                                "settings",
+                                "academic-year"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Add Academic Year",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer <your-token>",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{base_url}}/admin/settings/academic-year/add",
+                            "host": [
+                                "{{base_url}}"
+                            ],
+                            "path": [
+                                "admin",
+                                "settings",
+                                "academic-year",
+                                "add"
+                            ]
+                        },
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"name\": \"2023-2024\",\n    \"start_date\": \"2023-06-01\",\n    \"end_date\": \"2024-05-31\"\n}"
+                        }
+                    }
+                },
+                {
+                    "name": "Edit Academic Year",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer <your-token>",
+                                "type": "text"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{base_url}}/admin/settings/academic-year/edit/{id}",
+                            "host": [
+                                "{{base_url}}"
+                            ],
+                            "path": [
+                                "admin",
+                                "settings",
+                                "academic-year",
+                                "edit",
+                                "{id}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Update Academic Year",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer <your-token>",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{base_url}}/admin/settings/academic-year/update/{id}",
+                            "host": [
+                                "{{base_url}}"
+                            ],
+                            "path": [
+                                "admin",
+                                "settings",
+                                "academic-year",
+                                "update",
+                                "{id}"
+                            ]
+                        },
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"name\": \"2023-2024 Updated\",\n    \"start_date\": \"2023-06-01\",\n    \"end_date\": \"2024-05-31\"\n}"
+                        }
+                    }
+                },
+                {
+                    "name": "Delete Academic Year",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer <your-token>",
+                                "type": "text"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{base_url}}/admin/settings/academic-year/delete/{id}",
+                            "host": [
+                                "{{base_url}}"
+                            ],
+                            "path": [
+                                "admin",
+                                "settings",
+                                "academic-year",
+                                "delete",
+                                "{id}"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
