@@ -1,0 +1,87 @@
+[
+    {
+        "method": "GET",
+        "url": "/admin/examination/exam-type",
+        "action": "ExaminationController@examTypeIndex"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/examination/exam-type/add",
+        "action": "ExaminationController@examTypeAdd"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/examination/exam-type/edit/{id}",
+        "action": "ExaminationController@examTypeEdit"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/examination/exam-type/update/{id}",
+        "action": "ExaminationController@examTypUpdate"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/examination/exam-type/delete/{id}",
+        "action": "ExaminationController@examTypeDelete"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/examination/exam-setup",
+        "action": "ExamController@index"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/examination/exam-setup/add",
+        "action": "ExamController@add"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/examination/exam-setup/update/{id}",
+        "action": "ExamController@update"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/examination/exam-setup/delete/{id}",
+        "action": "ExamController@delete"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/examination/exam-subject-schedule",
+        "action": "ExaminationController@examSubjectScheduleList"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/examination/exam-subject-schedule/add",
+        "action": "ExaminationController@ExamSubjectSchedule"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/examination/exam-subject-schedule/edit/{id}",
+        "action": "ExaminationController@examSubjectScheduleEdit"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/examination/exam-subject-schedule/update/{id}",
+        "action": "ExaminationController@examSubjectScheduleUpdate"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/examination/exam-subject-schedule/delete/{id}",
+        "action": "ExaminationController@examSubjectScheduleDelete"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/examination/exam-attendance",
+        "action": "ExaminationController@examAttendanceSearch"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/examination/exam-attendance/add",
+        "action": "ExaminationController@examAttendanceStore"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/examination/exam-attendance/update/{id}",
+        "action": "ExaminationController@examAttendanceUpdate"
+    }
+]

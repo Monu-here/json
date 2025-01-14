@@ -1,0 +1,27 @@
+[
+    {
+        "method": "GET",
+        "url": "/admin/scholarship",
+        "action": "ScholarshipScheme@index"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/scholarship/add",
+        "action": "ScholarshipScheme@add"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/scholarship/edit/{id}",
+        "action": "ScholarshipScheme@edit"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/scholarship/update/{id}",
+        "action": "ScholarshipScheme@update"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/scholarship/delete/{id}",
+        "action": "ScholarshipScheme@delete"
+    }
+]

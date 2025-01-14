@@ -1,0 +1,27 @@
+[
+    {
+        "method": "GET",
+        "url": "/admin/religion",
+        "action": "ReligionController@index"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/religion/add",
+        "action": "ReligionController@add"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/religion/edit/{id}",
+        "action": "ReligionController@edit"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/religion/update/{id}",
+        "action": "ReligionController@update"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/religion/delete/{id}",
+        "action": "ReligionController@delete"
+    }
+]

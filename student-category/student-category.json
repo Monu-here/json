@@ -1,0 +1,27 @@
+[
+    {
+        "method": "GET",
+        "url": "/admin/student-category",
+        "action": "StudentCategoryController@index"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/student-category/add",
+        "action": "StudentCategoryController@add"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/student-category/edit/{id}",
+        "action": "StudentCategoryController@edit"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/student-category/update/{id}",
+        "action": "StudentCategoryController@update"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/student-category/delete/{id}",
+        "action": "StudentCategoryController@delete"
+    }
+]

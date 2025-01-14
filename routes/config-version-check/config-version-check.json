@@ -1,0 +1,7 @@
+[
+    {
+        "method": "GET",
+        "url": "/admin/config-version-check",
+        "action": "ConfigController@check"
+    }
+]

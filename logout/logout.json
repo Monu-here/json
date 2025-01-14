@@ -1,0 +1,7 @@
+[
+    {
+        "method": "GET",
+        "url": "/logout",
+        "action": "LoginController@logout"
+    }
+]

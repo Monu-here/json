@@ -1,0 +1,8 @@
+[
+    {
+        "method": "GET",
+        "url": "/auth-check",
+        "action": "LoginController@authCheck",
+        "middleware": "auth:sanctum"
+    }
+]

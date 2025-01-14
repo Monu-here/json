@@ -1,0 +1,27 @@
+[
+    {
+        "method": "GET",
+        "url": "/admin/schedule",
+        "action": "ScheduleController@index"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/schedule/add",
+        "action": "ScheduleController@add"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/schedule/edit/{id}",
+        "action": "ScheduleController@edit"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/schedule/update/{id}",
+        "action": "ScheduleController@update"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/schedule/delete/{id}",
+        "action": "ScheduleController@delete"
+    }
+]

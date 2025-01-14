@@ -1,0 +1,17 @@
+[
+    {
+        "method": "GET",
+        "url": "/admin/attendance/search",
+        "action": "AttendanceController@index"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/attendance/add",
+        "action": "AttendanceController@add"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/attendance/edit",
+        "action": "AttendanceController@edit"
+    }
+]

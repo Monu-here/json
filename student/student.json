@@ -1,0 +1,27 @@
+[
+    {
+        "method": "GET",
+        "url": "/admin/student",
+        "action": "StudentController@index"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/student/add",
+        "action": "StudentController@add"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/student/edit/{id}",
+        "action": "StudentController@edit"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/student/update/{id}",
+        "action": "StudentController@update"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/student/delete/{id}",
+        "action": "StudentController@delete"
+    }
+]

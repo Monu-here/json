@@ -1,0 +1,7 @@
+[
+    {
+        "method": "GET",
+        "url": "/admin/user_log",
+        "action": "UserLogsController@getUserLog"
+    }
+]

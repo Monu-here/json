@@ -1,0 +1,27 @@
+[
+    {
+        "method": "GET",
+        "url": "/admin/notice",
+        "action": "NoticeController@index"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/notice/add",
+        "action": "NoticeController@add"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/notice/edit/{id}",
+        "action": "NoticeController@edit"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/notice/update/{id}",
+        "action": "NoticeController@update"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/notice/delete/{id}",
+        "action": "NoticeController@delete"
+    }
+]

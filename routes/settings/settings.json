@@ -1,0 +1,344 @@
+[
+    {
+        "method": "GET",
+        "url": "/admin/settings/academic-year",
+        "action": "AcademicYearController@index",
+        "permission": "001.01"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/academic-year/add",
+        "action": "AcademicYearController@add",
+        "permission": "001.02"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/academic-year/edit/{id}",
+        "action": "AcademicYearController@edit",
+        "permission": "001.03"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/academic-year/update/{id}",
+        "action": "AcademicYearController@update",
+        "permission": "001.04"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/academic-year/delete/{id}",
+        "action": "AcademicYearController@delete",
+        "permission": "001.05"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/branch",
+        "action": "BranchController@index",
+        "permission": "001.06"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/branch/add",
+        "action": "BranchController@add",
+        "permission": "001.07"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/branch/edit/{id}",
+        "action": "BranchController@edit",
+        "permission": "001.08"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/branch/update/{id}",
+        "action": "BranchController@update",
+        "permission": "001.09"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/branch/delete/{id}",
+        "action": "BranchController@delete",
+        "permission": "001.10"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/pick-up-point",
+        "action": "PickUpPointController@index",
+        "permission": "001.11"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/pick-up-point/add",
+        "action": "PickUpPointController@add",
+        "permission": "001.12"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/pick-up-point/edit/{id}",
+        "action": "PickUpPointController@edit",
+        "permission": "001.13"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/pick-up-point/update/{id}",
+        "action": "PickUpPointController@update",
+        "permission": "001.14"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/pick-up-point/delete/{id}",
+        "action": "PickUpPointController@delete",
+        "permission": "001.15"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/grade",
+        "action": "GradeController@index",
+        "permission": "001.16"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/grade/add",
+        "action": "GradeController@add",
+        "permission": "001.17"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/grade/edit/{id}",
+        "action": "GradeController@edit",
+        "permission": "001.18"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/grade/update/{id}",
+        "action": "GradeController@update",
+        "permission": "001.19"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/grade/delete/{id}",
+        "action": "GradeController@delete",
+        "permission": "001.20"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/section",
+        "action": "SectionController@index",
+        "permission": "001.21"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/section/add",
+        "action": "SectionController@add",
+        "permission": "001.22"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/section/edit/{id}",
+        "action": "SectionController@edit",
+        "permission": "001.23"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/section/update/{id}",
+        "action": "SectionController@update",
+        "permission": "001.24"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/section/delete/{id}",
+        "action": "SectionController@delete",
+        "permission": "001.25"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/vehicle",
+        "action": "VehicleController@index",
+        "permission": "001.26"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/vehicle/add",
+        "action": "VehicleController@add",
+        "permission": "001.27"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/vehicle/edit/{id}",
+        "action": "VehicleController@edit",
+        "permission": "001.28"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/vehicle/update/{id}",
+        "action": "VehicleController@update",
+        "permission": "001.29"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/vehicle/delete/{id}",
+        "action": "VehicleController@delete",
+        "permission": "001.30"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/rfid",
+        "action": "RfidController@index",
+        "permission": "001.31"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/rfid/add",
+        "action": "RfidController@add",
+        "permission": "001.32"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/rfid/edit/{id}",
+        "action": "RfidController@edit",
+        "permission": "001.33"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/rfid/update/{id}",
+        "action": "RfidController@update",
+        "permission": "001.34"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/rfid/delete/{id}",
+        "action": "RfidController@delete",
+        "permission": "001.35"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/teacher",
+        "action": "TeacherController@index",
+        "permission": "001.36"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/teacher/search",
+        "action": "TeacherController@search",
+        "permission": "001.37"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/teacher/add",
+        "action": "TeacherController@add",
+        "permission": "001.38"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/teacher/edit/{id}",
+        "action": "TeacherController@edit",
+        "permission": "001.39"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/teacher/update/{id}",
+        "action": "TeacherController@update",
+        "permission": "001.40"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/teacher/delete/{id}",
+        "action": "TeacherController@delete",
+        "permission": "001.41"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/event",
+        "action": "EventController@index",
+        "permission": "001.36"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/event/add",
+        "action": "EventController@add",
+        "permission": "001.38"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/event/edit/{id}",
+        "action": "EventController@edit",
+        "permission": "001.39"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/event/update/{id}",
+        "action": "EventController@update",
+        "permission": "001.40"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/event/delete/{id}",
+        "action": "EventController@delete",
+        "permission": "001.41"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/academic-calendar",
+        "action": "AcademicCalendar@index",
+        "permission": "001.36"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/academic-calendar/add",
+        "action": "AcademicCalendar@add",
+        "permission": "001.38"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/academic-calendar/edit/{id}",
+        "action": "AcademicCalendar@edit",
+        "permission": "001.39"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/academic-calendar/update/{id}",
+        "action": "AcademicCalendar@update",
+        "permission": "001.40"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/academic-calendar/delete/{id}",
+        "action": "AcademicCalendar@delete",
+        "permission": "001.41"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/caste",
+        "action": "CasteCategory@index",
+        "permission": "001.36"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/caste/search",
+        "action": "CasteCategory@search",
+        "permission": "001.37"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/caste/add",
+        "action": "CasteCategory@add",
+        "permission": "001.38"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/caste/edit/{id}",
+        "action": "CasteCategory@edit",
+        "permission": "001.39"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/settings/caste/update/{id}",
+        "action": "CasteCategory@update",
+        "permission": "001.40"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/settings/caste/delete/{id}",
+        "action": "CasteCategory@delete",
+        "permission": "001.41"
+    }
+]

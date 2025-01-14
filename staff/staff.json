@@ -1,0 +1,27 @@
+[
+    {
+        "method": "GET",
+        "url": "/admin/staff",
+        "action": "StaffController@index"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/staff/add",
+        "action": "StaffController@add"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/staff/edit/{id}",
+        "action": "StaffController@edit"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/staff/update/{id}",
+        "action": "StaffController@update"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/staff/delete/{id}",
+        "action": "StaffController@delete"
+    }
+]

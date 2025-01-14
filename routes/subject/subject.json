@@ -1,0 +1,27 @@
+[
+    {
+        "method": "GET",
+        "url": "/admin/subject",
+        "action": "SubjectController@index"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/subject/add",
+        "action": "SubjectController@add"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/subject/edit/{id}",
+        "action": "SubjectController@edit"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/subject/update/{id}",
+        "action": "SubjectController@update"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/subject/delete/{id}",
+        "action": "SubjectController@delete"
+    }
+]

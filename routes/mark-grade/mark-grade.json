@@ -1,0 +1,27 @@
+[
+    {
+        "method": "GET",
+        "url": "/admin/mark-grade",
+        "action": "MarkGradeController@index"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/mark-grade/add",
+        "action": "MarkGradeController@add"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/mark-grade/edit/{id}",
+        "action": "MarkGradeController@edit"
+    },
+    {
+        "method": "POST",
+        "url": "/admin/mark-grade/update/{id}",
+        "action": "MarkGradeController@update"
+    },
+    {
+        "method": "GET",
+        "url": "/admin/mark-grade/delete/{id}",
+        "action": "MarkGradeController@delete"
+    }
+]
